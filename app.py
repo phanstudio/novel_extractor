@@ -16,7 +16,7 @@ def extract_text():
     novel = data['novel']
     num = data['num']
 
-    url = f"https://freewebnovel.com/{novel}/chapter-{num}.html"
+    url = f"https://freewebnovel.com/novel/{novel}/chapter-{num}"
     response = scraper.get(url)
 
     if response.status_code == 200:
