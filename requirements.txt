@@ -3,4 +3,4 @@ gunicorn==23.0.0  # Gunicorn for serving the app in production
 requests==2.32.3
 cloudscraper
 Flask-Cors==5.0.0
-bs4
+beautifulsoup4
